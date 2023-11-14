@@ -12,14 +12,11 @@ The dummy applicaiton needs a build.gradle file with the following settings:
 plugins {  
     id 'gradle.plugin.tomcat.controller' version '0.1'  
 }  
-  
 repositories {  
     mavenCentral()  
 }  
-  
 apply plugin: 'gradle.plugin.tomcat.controller'  
 "  
-  
 and a settings.gradle file:  
 "  
 pluginManagement {  
